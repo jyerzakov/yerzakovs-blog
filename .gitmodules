@@ -1,0 +1,9 @@
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/xmin"]
+	path = themes/xmin
+	url = https://github.com/yihui/hugo-xmin
+[submodule "themes/vintage-web-hugo-theme"]
+	path = themes/vintage-web-hugo-theme
+	url = https://github.com/raisingpixels/vintage-web-hugo-theme.git
