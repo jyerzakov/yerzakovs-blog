@@ -3,32 +3,27 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # or 'master' if you use that branch
+      - main
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      # 🧩 1️⃣ Checkout repository (must be first)
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true      # ✅ pulls your themes/paperMod folder
-          fetch-depth: 0        # ✅ ensures full history (needed for Hugo dates)
+          submodules: true
+          fetch-depth: 0
 
-      # 🧩 2️⃣ Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.123.0"
-          extended: true        # ✅ for SCSS themes like PaperMod
+          hugo-version: "0.146.0"
+          extended: true
 
-      # 🧩 3️⃣ Build the site
       - name: Build
         run: hugo --minify
 
-      # 🧩 4️⃣ Deploy to GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
