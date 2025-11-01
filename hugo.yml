@@ -1,6 +1,6 @@
 baseURL: "https://yerzakov.com/"
 title: Jamshid Yerzakov's Blog
-theme: paperMod
+theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
