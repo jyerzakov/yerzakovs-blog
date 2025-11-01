@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://yerzakov.com/sitemap.xml
+Sitemap: https://jyerzakov.github.io/yerzakovs-blog/sitemap.xml
