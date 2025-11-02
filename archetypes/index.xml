@@ -2,23 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Archetypes on Jamshid Yerzakov&#39;s Blog</title>
-    <link>https://jyerzakov.github.io/yerzakovs-blog/archetypes/</link>
+    <link>http://localhost:1313/yerzakovs-blog/archetypes/</link>
     <description>Recent content in Archetypes on Jamshid Yerzakov&#39;s Blog</description>
     <image>
       <title>Jamshid Yerzakov&#39;s Blog</title>
-      <url>https://jyerzakov.github.io/yerzakovs-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://jyerzakov.github.io/yerzakovs-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/yerzakovs-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/yerzakovs-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.146.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Oct 2025 11:30:03 +0000</lastBuildDate>
-    <atom:link href="https://jyerzakov.github.io/yerzakovs-blog/archetypes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to build anayltics with n8n</title>
-      <link>https://jyerzakov.github.io/yerzakovs-blog/archetypes/n8n/</link>
-      <pubDate>Fri, 31 Oct 2025 11:30:03 +0000</pubDate>
-      <guid>https://jyerzakov.github.io/yerzakovs-blog/archetypes/n8n/</guid>
-      <description>How to build data pipeline with open source tools</description>
-    </item>
+    <atom:link href="http://localhost:1313/yerzakovs-blog/archetypes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
