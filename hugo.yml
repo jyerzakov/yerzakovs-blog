@@ -69,7 +69,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there"
+    Title: "Salom!"
     Content: Welcome to my blog!
 
   socialIcons:
