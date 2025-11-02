@@ -7,7 +7,7 @@ tags: ["analytics", "automation"]
 author: "Jamshid Yerzakov"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false
@@ -15,7 +15,7 @@ description: "How to build data pipeline with open source tools"
 canonicalURL: "https://canonical.url/to/page"
 disableShare: false
 disableHLJS: false
-hideSummary: false
+hideSummary: true
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -24,11 +24,11 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/53/N8n-logo-new.svg" # image path/url
+    alt: "test" # alt text
+    caption: "n8n" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/jyerzakov/yerzakovs-blog/blob/main/content"
     Text: "Suggest Changes" # edit text

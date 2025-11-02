@@ -15,7 +15,7 @@ description: "How to build data pipeline with open source tools"
 canonicalURL: "https://canonical.url/to/page"
 disableShare: false
 disableHLJS: false
-hideSummary: false
+hideSummary: true
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true

@@ -36,8 +36,8 @@ params:
   comments: false
   hidemeta: false
   hideSummary: true
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableFingerprinting: true
@@ -70,20 +70,22 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Salom!"
-    Content: Welcome to my blog!
+    Content: "Bu yerda men barcha uchun foydali bo'lgan ma’lumotlar berib boraman."
 
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/jamshid-yerzakov"
     - name: telegram
       url: "https://t.me/jamshidyerzakov"
+    - name: website
+      url: "https://proximaops.io"
 
   analytics:
     google:
       SiteVerificationTag: "G-DCGM2XKEPB"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
+    hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
