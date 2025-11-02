@@ -1,4 +1,4 @@
-baseURL: "https://jyerzakov.github.io/yerzakovs-blog/"
+baseURL: "https://yerzakov.uz/"
 title: Jamshid Yerzakov's Blog
 theme: PaperMod
 
@@ -35,7 +35,7 @@ params:
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  hideSummary: false
+  hideSummary: true
   showtoc: false
   tocopen: false
 
@@ -48,7 +48,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "yerzakov.uz"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
